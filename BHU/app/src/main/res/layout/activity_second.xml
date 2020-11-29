@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:background="@drawable/zback">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Zchuche"
+        android:text="返回首页"
+        android:layout_marginTop="20dp"
+        android:background="@null"
+        android:button="@null"
+        android:layout_gravity="clip_vertical"
+        android:textColor="#03A9F4"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:textColor="#03A9F4"
+        android:textSize="45dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/account"
+        android:maxLength="8"
+        android:layout_marginTop="120dp"
+        android:maxLines="1"
+        android:hint="account"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:hint="password"
+        android:maxLength="12"
+        android:maxLines="1"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordAgain"
+        android:maxLength="12"
+        android:maxLines="1"
+        android:hint="paaawordAgain"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:id="@+id/register"
+        android:textColor="#FDFDFD"
+        android:layout_gravity="center"
+        android:background="#03A9F4"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="207dp"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/tencent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0000"
+            android:src="@drawable/tencent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:textSize="15dp"
+            android:text="其他方式登录？"
+            android:textColor="#002ED4" />
+
+        <ImageButton
+            android:id="@+id/xinlang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0000"
+            android:layout_marginLeft="60dp"
+            android:src="@drawable/xinlang"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
